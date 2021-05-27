@@ -38,12 +38,12 @@
     "vite": "^2.3.4"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,md,html,json}": "prettier --write",
-    "*.{tsx,jsx,js,ts}": "eslint --fix"
+    "/src/*.{js,jsx,ts,tsx,md,html,json,less}": "prettier --write",
+    "/src/*.{js,ts,jsx,tsx}":"eslint --fix"
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "./node_modules/cz-customizable"
     }
   }
 }
