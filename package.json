@@ -9,6 +9,8 @@
     "commit": "git add . & git-cz"
   },
   "dependencies": {
+    "antd": "^4.16.0",
+    "less": "^4.1.1",
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
   },
@@ -38,8 +40,7 @@
     "vite": "^2.3.4"
   },
   "lint-staged": {
-    "/src/*.{js,jsx,ts,tsx,md,html,json,less}": "prettier --write",
-    "/src/*.{js,ts,jsx,tsx}":"eslint --fix"
+    "/src/*.{js,jsx,ts,tsx,md,html,json,less}": "prettier --write"
   },
   "config": {
     "commitizen": {
